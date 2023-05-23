@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{background-color: #E8E8E8;}
+/* .main-wrap{min-height: 5000px;} */
+.d_tbdr{border: 1px dashed red;}
+header{height: 81px;}
+main{height: 3119px;}
+footer{height: 1800px;}
+.menuji > li a:hover{
+    background-color: #ededed;
+    border-radius: 7px;
+}
+.submenu{
+    width: 100px;
+    display: none; /*Hide*/
+}
+.menuji > li:hover ul{
+    display: block; /*Show*/
+}
+
+
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-x{
+        max-width: 1250px;
+    }
+    
+}
